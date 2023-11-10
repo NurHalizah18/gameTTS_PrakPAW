@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/gameTTS_PrakPAW/static/css/main.97c78ca7.css",
+    "main.js": "/gameTTS_PrakPAW/static/js/main.9dc6a09c.js",
+    "static/js/787.f22b8f29.chunk.js": "/gameTTS_PrakPAW/static/js/787.f22b8f29.chunk.js",
+    "index.html": "/gameTTS_PrakPAW/index.html",
+    "main.97c78ca7.css.map": "/gameTTS_PrakPAW/static/css/main.97c78ca7.css.map",
+    "main.9dc6a09c.js.map": "/gameTTS_PrakPAW/static/js/main.9dc6a09c.js.map",
+    "787.f22b8f29.chunk.js.map": "/gameTTS_PrakPAW/static/js/787.f22b8f29.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97c78ca7.css",
+    "static/js/main.9dc6a09c.js"
+  ]
+}
