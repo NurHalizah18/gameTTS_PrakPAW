@@ -1,0 +1,87 @@
+.tts-game {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.game-title {
+  text-align: center; /* Untuk mengatur teks judul menjadi tengah horizontal */
+}
+
+.tts-game {
+  display: flex;
+  flex-direction: column; /* Menjadikan elemen ini dalam satu kolom */
+  align-items: center; /* Menengahkan elemen secara horizontal */
+  justify-content: center; /* Menengahkan elemen secara vertikal */
+}
+
+.game-content {
+  display: flex;
+  flex-direction: row; /* Menjadikan elemen ini dalam satu baris */
+  align-items: flex-start; /* Konten berada di sebelah kiri */
+}
+
+
+.tabel {
+    text-align: center;
+  }
+  
+  td {
+    position: relative; /* Tambahkan ini untuk membuat td menjadi kontainer relatif */
+    width: 40px;
+    height: 40px;
+  }
+  
+td input {
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+  
+.nomorTTS {
+  position: absolute; /* Tambahkan ini untuk membuat nomorTTS menjadi elemen absolut */
+  top: 17%; /* Posisi vertikal di tengah sel */
+  left: 17%; /* Posisi horizontal di tengah sel */
+  transform: translate(-50%, -50%); /* Memposisikan elemen ke tengah sel */
+  font-size: 12px;
+  color: #999;
+}
+
+.tts-number-wrapper {
+  position: relative;
+}
+  
+.nomorTTS.atas {
+  top: 0%; /* Atur ke atas kotak */
+  left: 50%; /* Tengah horizontal */
+  transform: translateX(-50%); /* Pusatkan horizontal */
+}
+  
+.nomorTTS.samping {
+  position: absolute;
+  top: 50%; /* Tengah vertikal */
+  left: 7%; /* Atur ke samping kotak */
+  transform: translateY(-50%); /* Pusatkan vertikal */
+}
+
+@media (max-width: 600px) {
+  /* Gaya untuk layar berukuran kecil */
+}
+
+.correct {
+  color: green;
+}
+
+.incorrect {
+  color: red;
+}
+
+
+  
+  
